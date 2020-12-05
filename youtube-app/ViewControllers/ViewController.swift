@@ -27,6 +27,21 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        
+        let detaiLVC = segue.destination as! DetailViewController
+        
+        detaiLVC.video = selectedVideo
+        
+        
+    }
+    
     
 
 }
