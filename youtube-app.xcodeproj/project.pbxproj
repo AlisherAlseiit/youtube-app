@@ -10,6 +10,8 @@
 		3820D70B25791ED900974923 /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3820D70A25791ED900974923 /* Constatns.swift */; };
 		3820D70E257920A800974923 /* Vidoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3820D70D257920A800974923 /* Vidoe.swift */; };
 		3820D711257920DC00974923 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3820D710257920DC00974923 /* Model.swift */; };
+		38537F38257BB5FF00F94CF5 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38537F37257BB5FF00F94CF5 /* VideoTableViewCell.swift */; };
+		38537F3E257BBC7100F94CF5 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38537F3D257BBC7100F94CF5 /* CacheManager.swift */; };
 		38AA6BB22578BD4100AE036B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA6BB12578BD4100AE036B /* AppDelegate.swift */; };
 		38AA6BB42578BD4100AE036B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA6BB32578BD4100AE036B /* SceneDelegate.swift */; };
 		38AA6BB62578BD4100AE036B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA6BB52578BD4100AE036B /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 		3820D70A25791ED900974923 /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
 		3820D70D257920A800974923 /* Vidoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vidoe.swift; sourceTree = "<group>"; };
 		3820D710257920DC00974923 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		38537F37257BB5FF00F94CF5 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		38537F3D257BBC7100F94CF5 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		38AA6BAE2578BD4100AE036B /* youtube-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AA6BB12578BD4100AE036B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38AA6BB32578BD4100AE036B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,15 +70,17 @@
 			children = (
 				38AA6BB12578BD4100AE036B /* AppDelegate.swift */,
 				38AA6BB32578BD4100AE036B /* SceneDelegate.swift */,
+				38537F3D257BBC7100F94CF5 /* CacheManager.swift */,
+				38537F37257BB5FF00F94CF5 /* VideoTableViewCell.swift */,
 				38AA6BB52578BD4100AE036B /* ViewController.swift */,
-				38AA6BB72578BD4100AE036B /* Main.storyboard */,
-				38AA6BBA2578BD4200AE036B /* Assets.xcassets */,
-				38AA6BBC2578BD4200AE036B /* LaunchScreen.storyboard */,
-				38AA6BBF2578BD4200AE036B /* Info.plist */,
 				3820D70A25791ED900974923 /* Constatns.swift */,
 				3820D70D257920A800974923 /* Vidoe.swift */,
 				3820D710257920DC00974923 /* Model.swift */,
 				38D19A39257A27E5002C2F0B /* Response.swift */,
+				38AA6BB72578BD4100AE036B /* Main.storyboard */,
+				38AA6BBC2578BD4200AE036B /* LaunchScreen.storyboard */,
+				38AA6BBA2578BD4200AE036B /* Assets.xcassets */,
+				38AA6BBF2578BD4200AE036B /* Info.plist */,
 			);
 			path = "youtube-app";
 			sourceTree = "<group>";
@@ -150,10 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38AA6BB62578BD4100AE036B /* ViewController.swift in Sources */,
+				38537F3E257BBC7100F94CF5 /* CacheManager.swift in Sources */,
 				38AA6BB22578BD4100AE036B /* AppDelegate.swift in Sources */,
 				38AA6BB42578BD4100AE036B /* SceneDelegate.swift in Sources */,
 				3820D711257920DC00974923 /* Model.swift in Sources */,
 				3820D70E257920A800974923 /* Vidoe.swift in Sources */,
+				38537F38257BB5FF00F94CF5 /* VideoTableViewCell.swift in Sources */,
 				3820D70B25791ED900974923 /* Constatns.swift in Sources */,
 				38D19A3A257A27E5002C2F0B /* Response.swift in Sources */,
 			);
